@@ -1,2 +1,2 @@
-# tfc-projects
-TFC projects implementation with workspace association and variable sets.
+# tfe-projects
+TFE projects implementation with workspace association and variable sets.
