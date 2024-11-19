@@ -1,16 +1,19 @@
-variable "organization" {
-  type        = string
-  description = "The Terraform Cloud organization name"
-  default     = "CloudiFyi-Solutions"
-}
-
 variable "project_name" {
+  description = "The name of the Terraform Cloud project"
   type        = string
-  description = "The name of the project"
 }
 
 variable "description" {
+  description = "Description of the Terraform Cloud project"
   type        = string
-  description = "Description of the project"
-  default     = ""
+}
+
+variable "environment" {
+  description = "The environment of the project (e.g., npe, prd, sbx)"
+  type        = string
+}
+
+variable "tfc_organization" {
+  description = "The Terraform Cloud organization name"
+  type        = string
 }
